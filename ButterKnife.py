@@ -17,9 +17,6 @@ def main():
             else:
                 print "Drat"
 
-def getBoundingBox(ob):
-    print ob.GetRad()
-    
 
 if __name__=='__main__':
     main()
