@@ -1,0 +1,15 @@
+main(doc,op)
+{
+		CallCommand(12187); // Polygons
+		CallCommand(1016030); // Knife
+		tool()#MDATA_KNIFE_MODE=3;
+		tool()#MDATA_KNIFE_RESTRICT=FALSE;
+		tool()#MDATA_KNIFE_SELECTCUTS=FALSE;
+		tool()#MDATA_KNIFE_EDGES=FALSE;
+		tool()#MDATA_KNIFE_NGONS=TRUE;
+		tool()#MDATA_KNIFE_PLANE_OFFSET=0;
+		tool()#MDATA_KNIFE_STICKYLOCK=FALSE;
+		tool()#MDATA_KNIFE_PLANE_SLICING=TRUE;
+		tool()#MDATA_KNIFE_PLANE_CUTS=100;
+		tool()#MDATA_KNIFE_PLANE=1; //Y-Z
+}
